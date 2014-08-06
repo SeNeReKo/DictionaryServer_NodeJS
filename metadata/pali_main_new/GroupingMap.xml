@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GroupingMap>
+	<GroupingSystem		key="numeral">
+		<GroupingOperator	name="Case"	layoutingHint="List">
+			<Rule	name="Nominative">			<KVP	k="case"	v="nominative"	/>			</Rule>
+			<Rule	name="Genitive">			<KVP	k="case"	v="genitive"	/>			</Rule>
+			<Rule	name="Dative">				<KVP	k="case"	v="dative"	/>				</Rule>
+			<Rule	name="Accusative">			<KVP	k="case"	v="accusative"	/>			</Rule>
+			<Rule	name="Ablative">			<KVP	k="case"	v="ablative"	/>			</Rule>
+			<Rule	name="Vocative">			<KVP	k="case"	v="vocative"	/>			</Rule>
+			<Rule	name="Locative">			<KVP	k="case"	v="locative"	/>			</Rule>
+			<Rule	name="Instrumental">		<KVP	k="case"	v="instrumental"	/>		</Rule>
+		</GroupingOperator>
+	</GroupingSystem>
+	<GroupingSystem		key="noun">
+		<GroupingOperator	name="Declension"	layoutingHint="None">
+			<Rule	name="-a">				<KVP	k="declension"	v="a"	/>					</Rule>
+			<Rule	name="-ā">				<KVP	k="declension"	v="ā"	/>					</Rule>
+			<Rule	name="-i">				<KVP	k="declension"	v="i"	/>					</Rule>
+			<Rule	name="-in">				<KVP	k="declension"	v="in"	/>					</Rule>
+			<Rule	name="-ī">				<KVP	k="declension"	v="ī"	/>					</Rule>
+			<Rule	name="-u">				<KVP	k="declension"	v="u"	/>					</Rule>
+			<Rule	name="-ū">				<KVP	k="declension"	v="ū"	/>					</Rule>
+			<Rule	name="-ar">				<KVP	k="declension"	v="ar"	/>					</Rule>
+			<Rule	name="-an">				<KVP	k="declension"	v="an"	/>					</Rule>
+			<Rule	name="-ant">				<KVP	k="declension"	v="ant"	/>					</Rule>
+			<Rule	name="-as">				<KVP	k="declension"	v="as"	/>					</Rule>
+			<Rule	name="-us">				<KVP	k="declension"	v="us"	/>					</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Number"	layoutingHint="None">
+			<Rule	name="Singular">			<KVP	k="number"	v="singular"	/>			</Rule>
+			<Rule	name="Plural">				<KVP	k="number"	v="plural"	/>				</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Case"	layoutingHint="Table">
+			<Rule	name="Nominative">			<KVP	k="case"	v="nominative"	/>			</Rule>
+			<Rule	name="Genitive">			<KVP	k="case"	v="genitive"	/>			</Rule>
+			<Rule	name="Dative">				<KVP	k="case"	v="dative"	/>				</Rule>
+			<Rule	name="Accusative">			<KVP	k="case"	v="accusative"	/>			</Rule>
+			<Rule	name="Ablative">			<KVP	k="case"	v="ablative"	/>			</Rule>
+			<Rule	name="Vocative">			<KVP	k="case"	v="vocative"	/>			</Rule>
+			<Rule	name="Locative">			<KVP	k="case"	v="locative"	/>			</Rule>
+			<Rule	name="Instrumental">		<KVP	k="case"	v="instrumental"	/>		</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Gender"	layoutingHint="None">
+			<Rule	name="Masculine">			<KVP	k="gender"	v="masculine"	/>			</Rule>
+			<Rule	name="Feminine">			<KVP	k="gender"	v="feminine"	/>			</Rule>
+			<Rule	name="Neuter">				<KVP	k="gender"	v="neuter"	/>				</Rule>
+		</GroupingOperator>
+	</GroupingSystem>
+	<GroupingSystem		key="pronoun">
+		<GroupingOperator	name="Type" 	layoutingHint="None">
+			<Rule	name="Demonstrative">				<KVP	k="subtype"	v="demonstrative"	/>							</Rule>
+			<Rule	name="Personal">				<KVP	k="subtype"	v="personal"	/>							</Rule>
+			<Rule	name="Interrogative">				<KVP	k="subtype"	v="interrogative"	/>							</Rule>
+			<Rule	name="Relative">				<KVP	k="subtype"	v="relative"	/>							</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Number"	layoutingHint="None">
+			<Rule	name="Singular">			<KVP	k="number"	v="singular"	/>			</Rule>
+			<Rule	name="Plural">				<KVP	k="number"	v="plural"	/>				</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Case"	layoutingHint="Table">
+			<Rule	name="Nominative">			<KVP	k="case"	v="nominative"	/>			</Rule>
+			<Rule	name="Genitive">			<KVP	k="case"	v="genitive"	/>			</Rule>
+			<Rule	name="Dative">				<KVP	k="case"	v="dative"	/>				</Rule>
+			<Rule	name="Accusative">			<KVP	k="case"	v="accusative"	/>			</Rule>
+			<Rule	name="Ablative">			<KVP	k="case"	v="ablative"	/>			</Rule>
+			<Rule	name="Vocative">			<KVP	k="case"	v="vocative"	/>			</Rule>
+			<Rule	name="Locative">			<KVP	k="case"	v="locative"	/>			</Rule>
+			<Rule	name="Instrumental">		<KVP	k="case"	v="instrumental"	/>		</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Gender"	layoutingHint="None">
+			<Rule	name="Masculine">			<KVP	k="gender"	v="masculine"	/>			</Rule>
+			<Rule	name="Feminine">			<KVP	k="gender"	v="feminine"	/>			</Rule>
+			<Rule	name="Neuter">				<KVP	k="gender"	v="neuter"	/>				</Rule>
+		</GroupingOperator>
+	</GroupingSystem>
+	<GroupingSystem		key="adjective">
+		<GroupingOperator	name="Comparison" layoutingHint="None">
+			<Rule name="Positive">					<KVP	k="comparison"	v="positive"	/>			</Rule>
+			<Rule name="Comparative">				<KVP	k="comparison"	v="comparative"	/>			</Rule>
+			<Rule name="Superlative">				<KVP	k="comparison"	v="superlative"	/>			</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Number"	layoutingHint="None">
+			<Rule	name="Singular">			<KVP	k="number"	v="singular"	/>			</Rule>
+			<Rule	name="Plural">				<KVP	k="number"	v="plural"	/>				</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Case"	layoutingHint="Table">
+			<Rule	name="Nominative">			<KVP	k="case"	v="nominative"	/>			</Rule>
+			<Rule	name="Genitive">			<KVP	k="case"	v="genitive"	/>			</Rule>
+			<Rule	name="Dative">				<KVP	k="case"	v="dative"	/>				</Rule>
+			<Rule	name="Accusative">			<KVP	k="case"	v="accusative"	/>			</Rule>
+			<Rule	name="Ablative">			<KVP	k="case"	v="ablative"	/>			</Rule>
+			<Rule	name="Vocative">			<KVP	k="case"	v="vocative"	/>			</Rule>
+			<Rule	name="Locative">			<KVP	k="case"	v="locative"	/>			</Rule>
+			<Rule	name="Instrumental">		<KVP	k="case"	v="instrumental"	/>		</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Gender"	layoutingHint="None">
+			<Rule	name="Masculine">			<KVP	k="gender"	v="masculine"	/>			</Rule>
+			<Rule	name="Feminine">			<KVP	k="gender"	v="feminine"	/>			</Rule>
+			<Rule	name="Neuter">				<KVP	k="gender"	v="neuter"	/>				</Rule>
+		</GroupingOperator>
+	</GroupingSystem>
+	<GroupingSystem		key="verb">
+		<GroupingOperator	name="Tense and Mood"	layoutingHint="None">
+			<Rule	name="Present Indicative">			<KVP	k="tense"	v="present"	/>			<KVP	k="mood"	v="indicative"	/>			</Rule>
+			<Rule	name="Present Imperative">			<KVP	k="tense"	v="present"	/>			<KVP	k="mood"	v="imperative"	/>			</Rule>
+			<Rule	name="Present Optative">			<KVP	k="tense"	v="present"	/>			<KVP	k="mood"	v="optative"	/>			</Rule>
+			<Rule	name="Present">						<KVP	k="tense"	v="present"	/>			</Rule>
+			<Rule	name="Imperfect Indicative">		<KVP	k="tense"	v="imperfect"	/>			<KVP	k="mood"	v="indicative"	/>			</Rule>
+			<Rule	name="Imperfect Imperative">		<KVP	k="tense"	v="imperfect"	/>			<KVP	k="mood"	v="imperative"	/>			</Rule>
+			<Rule	name="Imperfect Optative">			<KVP	k="tense"	v="imperfect"	/>			<KVP	k="mood"	v="optative"	/>			</Rule>
+			<Rule	name="Imperfect">					<KVP	k="tense"	v="imperfect"	/>			</Rule>
+			<Rule	name="Perfect Indicative">			<KVP	k="tense"	v="perfect"	/>			<KVP	k="mood"	v="indicative"	/>			</Rule>
+			<Rule	name="Perfect Imperative">			<KVP	k="tense"	v="perfect"	/>			<KVP	k="mood"	v="imperative"	/>			</Rule>
+			<Rule	name="Perfect Optative">			<KVP	k="tense"	v="perfect"	/>			<KVP	k="mood"	v="optative"	/>			</Rule>
+			<Rule	name="Perfect">						<KVP	k="tense"	v="perfect"	/>			</Rule>
+			<Rule	name="Future Indicative">			<KVP	k="tense"	v="future"	/>			<KVP	k="mood"	v="indicative"	/>			</Rule>
+			<Rule	name="Future Imperative">			<KVP	k="tense"	v="future"	/>			<KVP	k="mood"	v="imperative"	/>			</Rule>
+			<Rule	name="Future Optative">				<KVP	k="tense"	v="future"	/>			<KVP	k="mood"	v="optative"	/>			</Rule>
+			<Rule	name="Future">						<KVP	k="tense"	v="future"	/>			</Rule>
+			<Rule	name="Conditional Indicative">		<KVP	k="tense"	v="conditional"	/>			<KVP	k="mood"	v="indicative"	/>			</Rule>
+			<Rule	name="Conditional Imperative">		<KVP	k="tense"	v="conditional"	/>			<KVP	k="mood"	v="imperative"	/>			</Rule>
+			<Rule	name="Conditional Optative">		<KVP	k="tense"	v="conditional"	/>			<KVP	k="mood"	v="optative"	/>			</Rule>
+			<Rule	name="Conditional">					<KVP	k="tense"	v="conditional"	/>			</Rule>
+			<Rule	name="Aorist-root Indicative">		<KVP	k="tense"	v="aorist-root"	/>			<KVP	k="mood"	v="indicative"	/>			</Rule>
+			<Rule	name="Aorist-root Imperative">		<KVP	k="tense"	v="aorist-root"	/>			<KVP	k="mood"	v="imperative"	/>			</Rule>
+			<Rule	name="Aorist-root Optative">		<KVP	k="tense"	v="aorist-root"	/>			<KVP	k="mood"	v="optative"	/>			</Rule>
+			<Rule	name="Aorist-root">					<KVP	k="tense"	v="aorist-root"	/>			</Rule>
+			<Rule	name="Aorist-a Indicative">			<KVP	k="tense"	v="aorist-a"	/>			<KVP	k="mood"	v="indicative"	/>			</Rule>
+			<Rule	name="Aorist-a Imperative">			<KVP	k="tense"	v="aorist-a"	/>			<KVP	k="mood"	v="imperative"	/>			</Rule>
+			<Rule	name="Aorist-a Optative">			<KVP	k="tense"	v="aorist-a"	/>			<KVP	k="mood"	v="optative"	/>			</Rule>
+			<Rule	name="Aorist-a">					<KVP	k="tense"	v="aorist-a"	/>			</Rule>
+			<Rule	name="Aorist-s Indicative">			<KVP	k="tense"	v="aorist-s"	/>			<KVP	k="mood"	v="indicative"	/>			</Rule>
+			<Rule	name="Aorist-s Imperative">			<KVP	k="tense"	v="aorist-s"	/>			<KVP	k="mood"	v="imperative"	/>			</Rule>
+			<Rule	name="Aorist-s Optative">			<KVP	k="tense"	v="aorist-s"	/>			<KVP	k="mood"	v="optative"	/>			</Rule>
+			<Rule	name="Aorist-s">					<KVP	k="tense"	v="aorist-s"	/>			</Rule>
+			<Rule	name="Aorist-i Indicative">			<KVP	k="tense"	v="aorist-i"	/>			<KVP	k="mood"	v="indicative"	/>			</Rule>
+			<Rule	name="Aorist-i Imperative">			<KVP	k="tense"	v="aorist-i"	/>			<KVP	k="mood"	v="imperative"	/>			</Rule>
+			<Rule	name="Aorist-i Optative">			<KVP	k="tense"	v="aorist-i"	/>			<KVP	k="mood"	v="optative"	/>			</Rule>
+			<Rule	name="Aorist-i">					<KVP	k="tense"	v="aorist-i"	/>			</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Person and Number"	layoutingHint="Table">
+			<Rule	name="1sg">			<KVP	k="person"	v="1"	/>			<KVP	k="number"	v="singular"	/>				</Rule>
+			<Rule	name="1pl">			<KVP	k="person"	v="1"	/>			<KVP	k="number"	v="plural"	/>					</Rule>
+			<Rule	name="2sg">				<KVP	k="person"	v="2"	/>				<KVP	k="number"	v="singular"	/>		</Rule>
+			<Rule	name="2pl">			<KVP	k="person"	v="2"	/>			<KVP	k="number"	v="plural"	/>					</Rule>
+			<Rule	name="3sg">			<KVP	k="person"	v="3"	/>			<KVP	k="number"	v="singular"	/>				</Rule>
+			<Rule	name="3pl">			<KVP	k="person"	v="3"	/>			<KVP	k="number"	v="plural"	/>					</Rule>
+		</GroupingOperator>
+		<GroupingOperator	name="Voice"	layoutingHint="None">
+			<Rule	name="Active">			<KVP	k="voice"	v="active"	/>			</Rule>
+			<Rule	name="Passive">			<KVP	k="voice"	v="passive"	/>			</Rule>
+			<Rule	name="Middle">			<KVP	k="voice"	v="middle"	/>			</Rule>
+		</GroupingOperator>
+	</GroupingSystem>
+</GroupingMap>

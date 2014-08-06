@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DictionaryGUI>
+	<Tab
+		title="Grunddaten">
+		<Controls>
+			<TextBox
+				title="Lemma"
+				description="Dies ist das Lemma, also der Titel des Wörterbucheintrags."
+				path="/form/lemma"
+				valuemanagement="standard"
+				readonly="false"
+				id="lemma"
+				/>
+			<HCheckBoxList
+				title="Wortart"
+				description="Dies ist die Wortart des Lemmas des Wörterbucheintrags."
+				path="/gramGrp/PoS"
+				valuemanagement="accessor"
+				readonly="false"
+				>
+				<Items>
+					<Item title="noun" value="noun"/>
+					<Item title="adjective" value="adj"/>
+					<Item title="verb" value="verb"/>
+					<Item title="adverb" value="adv"/>
+					<Item title="ordinalAdj" value="ordinalAdj"/>
+					<Item title="indecl" value="indecl"/>
+					<Item title="cardinalNumeral" value="cardinalNumeral"/>
+					<Item title="pronoun" value="pronoun"/>
+					<Item title="prep" value="prep"/>
+					<Item title="pp" value="pp"/>
+					<Item title="numeral" value="numeral"/>
+				</Items>
+			</HCheckBoxList>
+			<VGap
+				countpixels="12"
+				/>
+			<!--
+			<TextArea
+				title="Original article"
+				description="Dies ist der Originaleintrag im alten Pali-Wörterbuch"
+				path="/note/orgData"
+				valuemanagement="standard"
+				readonly="true"
+				countlines="12"
+				/>
+			-->
+			<FormattedTextArea
+				title="Original article"
+				description="Dies ist der Originaleintrag im alten Pali-Wörterbuch"
+				path="/note/orgData"
+				valuemanagement="standard"
+				countlines="12"
+				/>
+		</Controls>
+	</Tab>
+</DictionaryGUI>

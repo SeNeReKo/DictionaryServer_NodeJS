@@ -1,0 +1,24 @@
+{
+	"name" : "jk-randomdatagen",
+	"version" : "1.0.0",
+	"description" : "Random data generator.",
+	"main" : "./index.js",
+	"dependencies" : {
+		"crypto": ">=0.0.0"
+	},
+	"devDependencies" : {
+	},
+	"scripts" : {
+	},
+	"keywords" : [
+		"random"
+	],
+	"author" : {
+		"name" : "Jürgen Knauth",
+		"email" : "knauth@uni-trier.de"
+	},
+	"license" : "LGPL",
+	"engine" : [
+		"node >=0.10.15"
+	]
+}

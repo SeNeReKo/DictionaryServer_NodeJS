@@ -1,0 +1,8 @@
+/.bash_history
+/metadata_extra
+/bin/node_modules
+/bin/other_modules
+/bin/nohup.out
+/bin/config.ini
+/bin/_*
+/temp

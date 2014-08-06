@@ -1,0 +1,5 @@
+@echo off
+
+bin\UploadXMLCfgsAsJSON.exe HOSTNAME PORT LOGIN PWD pali_main_new .\pali_main_new
+
+PAUSE

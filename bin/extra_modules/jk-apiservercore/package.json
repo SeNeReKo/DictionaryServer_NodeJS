@@ -1,0 +1,27 @@
+{
+	"name" : "jk-apiservercore",
+	"version" : "1.0.0",
+	"description" : "Implements basic API server functionality.",
+	"main" : "./index.js",
+	"dependencies" : {
+		"batchflow": ">=0.4.0",
+		"url": ">=0.7.9",
+		"jstoxml": ">=0.2.2",
+		"jk-simpleauthmongodb": ">=1.0.0"
+	},
+	"devDependencies" : {
+	},
+	"scripts" : {
+	},
+	"keywords" : [
+		"api"
+	],
+	"author" : {
+		"name" : "Jürgen Knauth",
+		"email" : "knauth@uni-trier.de"
+	},
+	"license" : "LGPL",
+	"engine" : [
+		"node >=0.10.15"
+	]
+}
